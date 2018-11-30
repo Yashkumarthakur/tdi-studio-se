@@ -69,7 +69,7 @@
 		<module>main/features/org.talend.tos.core.feature</module>
 		<module>main/features/org.talend.tos.feature</module>
 		<module>main/features/org.talend.tos.components.feature</module>
-		<module>main/features/org.talend.tos.libraries.feature</module>
+		<!--<module>main/features/org.talend.tos.libraries.feature</module>-->
 		<module>main/plugins/org.talend.designer.core.generic</module>
 		<module>main/plugins/org.talend.repository.generic</module>
 		<module>main/plugins/org.talend.designer.abstractmap</module>
@@ -98,30 +98,30 @@
 		<module>main/plugins/org.talend.designer.webservice</module>
 		<module>main/plugins/org.talend.designer.xmlmap</module>
 		<module>main/plugins/org.talend.expressionbuilder</module>
-		<module>main/plugins/org.talend.libraries.asm</module>
-		<module>main/plugins/org.talend.libraries.crm</module>
-		<module>main/plugins/org.talend.libraries.css</module>
-		<module>main/plugins/org.talend.libraries.custom</module>
+		<!--<module>main/plugins/org.talend.libraries.asm</module>-->
+		<!--<module>main/plugins/org.talend.libraries.crm</module>-->
+		<!--<module>main/plugins/org.talend.libraries.css</module>-->
+		<!--<module>main/plugins/org.talend.libraries.custom</module>-->
 		<module>main/plugins/org.talend.libraries.edifact</module>
-		<module>main/plugins/org.talend.libraries.ehcache</module>
-		<module>main/plugins/org.talend.libraries.excel</module>
+		<!--<module>main/plugins/org.talend.libraries.ehcache</module>-->
+		<!--<module>main/plugins/org.talend.libraries.excel</module>-->
 		<module>main/plugins/org.talend.libraries.ftp</module>
-		<module>main/plugins/org.talend.libraries.groovy</module>
-		<module>main/plugins/org.talend.libraries.guava</module>
-		<module>main/plugins/org.talend.libraries.jax</module>
-		<module>main/plugins/org.talend.libraries.jetty</module>
+		<!--<module>main/plugins/org.talend.libraries.groovy</module>-->
+		<!--<module>main/plugins/org.talend.libraries.guava</module>-->
+		<!--<module>main/plugins/org.talend.libraries.jax</module>-->
+		<!--<module>main/plugins/org.talend.libraries.jetty</module>-->
 		<module>main/plugins/org.talend.libraries.microsoft</module>
-		<module>main/plugins/org.talend.libraries.mondrian</module>
+		<!--<module>main/plugins/org.talend.libraries.mondrian</module>-->
 		<module>main/plugins/org.talend.libraries.mozilla</module>
-		<module>main/plugins/org.talend.libraries.palo</module>
+		<!--<module>main/plugins/org.talend.libraries.palo</module>-->
 		<module>main/plugins/org.talend.libraries.salesforce</module>
-		<module>main/plugins/org.talend.libraries.servlet</module>
-		<module>main/plugins/org.talend.libraries.slf4j</module>
+		<!--<module>main/plugins/org.talend.libraries.servlet</module>-->
+		<!--<module>main/plugins/org.talend.libraries.slf4j</module>-->
 		<module>main/plugins/org.talend.libraries.uniserv</module>
 		<module>main/plugins/org.talend.libraries.w3c</module>
-		<module>main/plugins/org.talend.libraries.xml</module>
-		<module>main/plugins/org.talend.libraries.zmq</module>
-		<module>main/plugins/org.talend.libraries.hadoop.mapr.5.0.0</module>
+		<!--<module>main/plugins/org.talend.libraries.xml</module>-->
+		<!--<module>main/plugins/org.talend.libraries.zmq</module>-->
+		<!--<module>main/plugins/org.talend.libraries.hadoop.mapr.5.0.0</module>-->
 		<module>main/plugins/org.talend.presentation.onboarding.resource</module>
 		<module>main/plugins/org.talend.presentation.onboarding.resource.tos</module>
 		<module>main/plugins/org.talend.rcp.branding.tos</module>
@@ -155,6 +155,17 @@
 		<module>test/plugins/org.talend.designer.webservice.test</module>
 		<module>test/plugins/org.talend.designer.scd.test</module>
 		<module>test/plugins/org.talend.designer.unifiedcomponent.test</module>
+        <module>../tcommon-studio-se/i18n/plugins/org.talend.rcp.nl</module>
+        <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.localprovider.nl</module>
+        <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.metadata.nl</module>
+        <module>../tcommon-studio-se/main/features/org.talend.rcp.feature</module>
+        <module>../tcommon-studio-se/main/plugins/org.talend.rcp</module>
+        <module>../tcommon-studio-se/main/plugins/org.talend.repository.localprovider</module>
+        <module>../tcommon-studio-se/main/plugins/org.talend.repository.mdm</module>
+        <module>../tcommon-studio-se/main/plugins/org.talend.repository.metadata</module>
+        <module>../tcommon-studio-se/test/plugins/org.talend.repository.localprovider.test</module>
+        <module>../tcommon-studio-se/test/plugins/org.talend.repository.metadata.test</module>
+        <module>../tcommon-studio-se/test/plugins/org.talend.utils.test</module>
 	</modules>
 	<build>
 		<plugins>
