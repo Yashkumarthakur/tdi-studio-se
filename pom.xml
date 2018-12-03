@@ -61,6 +61,7 @@
 		<module>i18n/plugins/org.talend.sqlbuilder.nl</module>
 		<module>main/features/org.talend.designer.feature</module>
 		<module>main/features/org.talend.designer.business.feature</module>
+        <module>main/features/org.talend.fragment.jars.di.feature</module>
 		<module>main/features/org.talend.rcp.branding.tos.feature</module>
 		<module>main/features/org.talend.rcp.branding.tos.test.feature</module>
 		<module>main/features/org.talend.repository.feature</module>
@@ -155,8 +156,11 @@
 		<module>test/plugins/org.talend.designer.webservice.test</module>
 		<module>test/plugins/org.talend.designer.scd.test</module>
 		<module>test/plugins/org.talend.designer.unifiedcomponent.test</module>
+
+        <!-- modules from other repositories -->
         <module>../tcommon-studio-se/i18n/plugins/org.talend.rcp.nl</module>
         <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.localprovider.nl</module>
+        <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.mdm.nl</module>
         <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.metadata.nl</module>
         <module>../tcommon-studio-se/main/features/org.talend.rcp.feature</module>
         <module>../tcommon-studio-se/main/plugins/org.talend.rcp</module>
