@@ -158,6 +158,7 @@
 		<module>test/plugins/org.talend.designer.unifiedcomponent.test</module>
 
         <!-- modules from other repositories -->
+        <!-- tcommon-studio-se -->
         <module>../tcommon-studio-se/i18n/plugins/org.talend.rcp.nl</module>
         <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.localprovider.nl</module>
         <module>../tcommon-studio-se/i18n/plugins/org.talend.repository.mdm.nl</module>
@@ -170,6 +171,17 @@
         <module>../tcommon-studio-se/test/plugins/org.talend.repository.localprovider.test</module>
         <module>../tcommon-studio-se/test/plugins/org.talend.repository.metadata.test</module>
         <module>../tcommon-studio-se/test/plugins/org.talend.utils.test</module>
+        
+        <!-- tbd-studio-se -->
+        <module>../tbd-studio-se/main/plugins/org.talend.hadoop.distribution</module>
+        <module>../tbd-studio-se/main/plugins/org.talend.hadoop.distribution.custom</module>
+        
+        <!-- tesb-studio-se -->
+        <module>../tesb-studio-se/main/features/org.talend.esb.tooling.ws.consumer.feature</module>
+        <module>../tesb-studio-se/main/plugins/org.talend.designer.esb.components.rs.consumer</module>
+        <module>../tesb-studio-se/main/plugins/org.talend.designer.esb.components.ws.consumer</module>
+        <module>../tesb-studio-se/main/plugins/org.talend.designer.esb.routines</module>
+        <module>../tesb-studio-se/main/plugins/org.talend.libraries.esb</module>
 	</modules>
 	<build>
 		<plugins>
