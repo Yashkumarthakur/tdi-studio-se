@@ -69,24 +69,6 @@ public class IntegrityUtil {
     }
 
     /**
-     * Check the zip entry is valid
-     * 
-     * @param input
-     * @return
-     */
-    public static boolean isZipEntryValid(final ZipArchiveInputStream input) {
-        try {
-            ArchiveEntry entry = input.getNextEntry();
-            return true;
-
-        } catch (IOException e) {
-            return false;
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
-    /**
      * To check if the encrpted zip file is corrupted or not
      * 
      * @param file
