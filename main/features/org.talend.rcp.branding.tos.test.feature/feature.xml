@@ -9,7 +9,6 @@
     <import plugin="org.talend.commons.runtime" version="2.2.0" match="greaterOrEqual"/>
     <import plugin="org.talend.commons.ui" version="2.2.0" match="greaterOrEqual"/>
     <import plugin="org.talend.core" version="2.2.0" match="greaterOrEqual"/>
-    <import plugin="org.talend.dataquality.matching" version="1.0.0" match="greaterOrEqual"/>
     <import plugin="org.talend.designer.core" version="2.2.0" match="greaterOrEqual"/>
     <import plugin="org.talend.designer.mapper" version="2.2.0" match="greaterOrEqual"/>
     <import plugin="org.talend.designer.runprocess" version="2.2.0" match="greaterOrEqual"/>
@@ -24,13 +23,6 @@
   <plugin id="org.talend.core.runtime.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.core.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.core.ui.test" download-size="0" install-size="0" version="0.0.0" fragment="true"/>
-  <plugin id="org.talend.cwm.compare.test" download-size="0" install-size="0" version="0.0.0"/>
-  <plugin id="org.talend.cwm.management.test" download-size="0" install-size="0" version="0.0.0"/>
-  <plugin id="org.talend.dataprofiler.core.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
-  <plugin id="org.talend.dataprofiler.ecos.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
-  <plugin id="org.talend.dataquality.matching.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
-  <plugin id="org.talend.dataquality.record.linkage.ui.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
-  <plugin id="org.talend.dataquality.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.datatools.xml.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.designer.codegen.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.designer.components.localprovider.test" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
@@ -52,7 +44,6 @@
   <plugin id="org.talend.migrationTool.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.model.migration.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.model.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
-  <plugin id="org.talend.oozie.scheduler.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.repository.generic.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.repository.items.importexport.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
   <plugin id="org.talend.repository.items.importexport.ui.test" download-size="0" install-size="0" version="0.0.0" fragment="true" unpack="false"/>
